@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 kintamieji", "01 kintami
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 isvedimai", "02 isvedimai", "{80AE6DC3-8211-4ECA-859C-30732C23E5FA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 ivedimai", "03 ivedimai", "{5BA916D1-078B-4F5C-878D-1643BD5365EE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 aritmetiniai veiksmai", "03 aritmetiniai veiksmai", "{5BA916D1-078B-4F5C-878D-1643BD5365EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-1 uzduotis", "01-1 uzduotis\01-1 uzduotis.csproj", "{1A4E8050-3ABC-4AF2-939F-D39144445D65}"
 EndProject

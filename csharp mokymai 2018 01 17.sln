@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 switch salyga", "09 swit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-1 uzduotis", "09-1 uzduotis\09-1 uzduotis.csproj", "{8010B1C2-29E6-4854-A80F-1FEA01A2410B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 tarpine uzduotis", "10 tarpine uzduotis", "{14BAAC91-E095-425A-822F-BA42957576E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 tarpine uzduotis", "10 tarpine uzduotis\10 tarpine uzduotis.csproj", "{B465CDE0-DFB3-4E6A-B9AD-872CFA4EF367}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,10 @@ Global
 		{8010B1C2-29E6-4854-A80F-1FEA01A2410B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8010B1C2-29E6-4854-A80F-1FEA01A2410B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8010B1C2-29E6-4854-A80F-1FEA01A2410B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B465CDE0-DFB3-4E6A-B9AD-872CFA4EF367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B465CDE0-DFB3-4E6A-B9AD-872CFA4EF367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B465CDE0-DFB3-4E6A-B9AD-872CFA4EF367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B465CDE0-DFB3-4E6A-B9AD-872CFA4EF367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +138,7 @@ Global
 		{EDEED1BC-3965-4F4E-94DD-AEE03AD1AFFA} = {D5B88D55-C662-4B32-82CE-AF8CEE5FF88A}
 		{0A8A456E-39BE-49C3-B98A-F972BA2072B3} = {099C65D2-3162-41D3-809C-903C551ECB23}
 		{8010B1C2-29E6-4854-A80F-1FEA01A2410B} = {02E65855-81E0-44C1-84DF-0DB1BD6619E0}
+		{B465CDE0-DFB3-4E6A-B9AD-872CFA4EF367} = {14BAAC91-E095-425A-822F-BA42957576E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EDAB726-B9D4-4077-9BE7-75B951046210}

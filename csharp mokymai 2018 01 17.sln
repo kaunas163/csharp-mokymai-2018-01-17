@@ -63,6 +63,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-9 uzduotis", "11-9 uzduo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-12 uzduotis", "11-12 uzduotis\11-12 uzduotis.csproj", "{B1361CA7-42B7-4B12-8652-A82297C2771E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12 ciklas while", "12 ciklas while", "{F04DE687-E4BF-4360-BCFB-55DFA688AEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12-1 uzduotis", "12-1 uzduotis\12-1 uzduotis.csproj", "{C88A4A0D-A3F9-47F7-8C84-CC9AF4D1DE2A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -145,6 +149,10 @@ Global
 		{B1361CA7-42B7-4B12-8652-A82297C2771E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1361CA7-42B7-4B12-8652-A82297C2771E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1361CA7-42B7-4B12-8652-A82297C2771E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88A4A0D-A3F9-47F7-8C84-CC9AF4D1DE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88A4A0D-A3F9-47F7-8C84-CC9AF4D1DE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88A4A0D-A3F9-47F7-8C84-CC9AF4D1DE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88A4A0D-A3F9-47F7-8C84-CC9AF4D1DE2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -169,6 +177,7 @@ Global
 		{7D7744B1-C8DF-45BD-9D68-6D3212E02043} = {6F3AEE78-A86D-445E-B594-F024625FEC31}
 		{C308F37D-2F56-4110-BE95-E6E289FBD27A} = {6F3AEE78-A86D-445E-B594-F024625FEC31}
 		{B1361CA7-42B7-4B12-8652-A82297C2771E} = {6F3AEE78-A86D-445E-B594-F024625FEC31}
+		{C88A4A0D-A3F9-47F7-8C84-CC9AF4D1DE2A} = {F04DE687-E4BF-4360-BCFB-55DFA688AEE5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EDAB726-B9D4-4077-9BE7-75B951046210}

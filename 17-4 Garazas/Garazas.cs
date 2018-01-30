@@ -64,5 +64,45 @@ namespace _17_4_Garazas
             Console.WriteLine("Atnaujintas automobilis:");
             Automobiliai[kuris - 1].Isvedimas();
         }
-    }
+
+        public void Skaiciavimai()
+        {
+            Console.WriteLine("SKAICIAVIMAI");
+
+            Console.WriteLine("Total rida: " + TotalRida());
+
+            Console.Write("Didziausia galia: ");
+            //DidziausiaGalia().Isvedimas();
+            var didziausia = DidziausiaGalia();
+            didziausia.Isvedimas();
+        }
+
+        public int TotalRida()
+        {
+            var sum = 0;
+
+            foreach (var auto in Automobiliai)
+            {
+                sum += auto.Rida;
+            }
+
+            return sum;
+        }
+
+        public Automobilis DidziausiaGalia()
+        {
+            var didziausia = Automobiliai.First(); // objektas
+
+            foreach (var auto in Automobiliai)
+            {
+                if (auto.GaliaKW > didziausia.GaliaKW) // lygina pagal savybes
+                {
+                    didziausia = auto; // prisiskiria objekta
+                }
+            }
+
+            return didziausia;
+        }
+
+    } // class garazas pabaiga
 }

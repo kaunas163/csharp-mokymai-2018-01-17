@@ -20,6 +20,7 @@ namespace _17_4_Garazas
             });
 
             garazas.Isvedimas();
+            garazas.Skaiciavimai();
             garazas.AtnaujintiPasirinkta();
         }
     }

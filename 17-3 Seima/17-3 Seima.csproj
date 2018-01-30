@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C25BE451-BC84-4131-AB82-97D4CB48CF9A}</ProjectGuid>
+    <ProjectGuid>{AF336371-EACF-4811-86EB-A28DC6B5AC04}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_17_1_studentai</RootNamespace>
-    <AssemblyName>17-1 studentai</AssemblyName>
+    <RootNamespace>_17_3_Seima</RootNamespace>
+    <AssemblyName>17-3 Seima</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Grupe.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Studentas.cs" />
+    <Compile Include="Seima.cs" />
+    <Compile Include="Zmogus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -26,10 +26,43 @@ namespace _17_4_Garazas
             Console.WriteLine("Garaziukas {0} randasi adresu {1}, jame dirba {2} meistrai", Pavadinimas, Adresas, MeistruSkaicius);
 
             Console.WriteLine("Remontuojami automobiliai:");
-            foreach (var auto in Automobiliai)
+
+            for (var i = 0; i < Automobiliai.Count; i++)
             {
-                auto.Isvedimas();
+                Console.Write(i+1 + " auto: ");
+                Automobiliai[i].Isvedimas();
             }
+        }
+
+        public void AtnaujintiPasirinkta()
+        {
+            Console.Write("Kuri automobili keisti: ");
+            var kuris = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Pasirinktas automobilis:");
+            Automobiliai[kuris - 1].Isvedimas();
+
+            Console.WriteLine("1 - atsukti rida");
+            Console.WriteLine("2 - perdazyti");
+            Console.WriteLine("3 - padidinti galia");
+
+            var pasirinkimas = Convert.ToInt32(Console.ReadLine());
+
+            switch (pasirinkimas)
+            {
+                case 1:
+                    Automobiliai[kuris - 1].AtsuktiRida();
+                    break;
+                case 2:
+                    Automobiliai[kuris - 1].Perdazyti();
+                    break;
+                case 3:
+                    Automobiliai[kuris - 1].PakeltiGalia();
+                    break;
+            }
+
+            Console.WriteLine("Atnaujintas automobilis:");
+            Automobiliai[kuris - 1].Isvedimas();
         }
     }
 }

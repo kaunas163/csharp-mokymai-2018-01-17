@@ -35,5 +35,11 @@ namespace _17_4_Garazas
         {
             Console.WriteLine("Automobilis {0} {1} ({2} m.), {3} km, {4} kw, {5} l, {6}", Marke, Modelis, GamybosMetai, Rida, GaliaKW, DarbinisTuris, Spalva);
         }
-    }
+
+        // nauji metodai:
+        // - atsukti rida
+        // - perdazyti
+        // - pakelti galia
+
+    } // class automobilis
 }
